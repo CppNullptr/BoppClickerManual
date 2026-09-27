@@ -84,7 +84,7 @@
 	},
 
 	{
-		"type": "text",
+		"type": "bbcode",
 		"text": "The ultimate goal of the game is getting [color=yellow]one trillion coins[/color]."
 	},
 
