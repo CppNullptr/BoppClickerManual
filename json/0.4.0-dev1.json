@@ -1,0 +1,13 @@
+[
+  {
+    "type": "category",
+    "title": "Coins",
+    "icon": "res://ui/top_bar/coin.png"
+  },
+
+  {
+    "type": "text",
+    "text": "Coins are the main currency in the world of Bopp Clicker.",
+    "color": "green"
+  }
+]
