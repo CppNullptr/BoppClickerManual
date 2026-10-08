@@ -1,0 +1,111 @@
+[
+	{
+		"type": "category",
+		"title": "Overview"
+	},
+	
+	{
+		"type": "bbcode",
+		"text": "[color=deep_sky_blue]Bopp Clicker[/color] is an incremental game, where you click on the character in the center of the screen (named [color=light_green]Bopp[/color]), and get money from doing that."
+	},
+
+	{
+		"type": "bbcode",
+		"text": "The gameplay in a nutshell is that you buy upgrades that just add more money per click, then you start buying idle clicking upgrades that click for you, and only then can you unlock [color=deep_sky_blue]the Nodes mechanic[/color], which is explained below in the Nodes chapter."
+	},
+
+  {
+    "type": "text",
+    "text": "Thanks for playing the demo version! Get full version at https://ma3o9oti.itch.io/bopp-clicker"
+  },
+
+	{
+		"type": "category",
+		"title": "Upgrades",
+		"icon": "res://upgrade/icons/cogwheels.png"
+	},
+
+	{
+		"type": "bbcode",
+		"text": "There are two types of upgrades: the one that adds a multiplier (more coins per click), and the one that clicks for you (idle clicking)."
+	},
+
+	{
+		"type": "bbcode",
+		"text": "Upgrades also have a [color=peach_puff]set maximum level[/color], above which you cannot go. And they [color=peach_puff]become more expensive[/color] after each level up (actual percentage varies by upgrade)."
+	},
+
+	{
+		"type": "bbcode",
+		"text": "The last five upgrades are designed for the end game and they are pretty expensive and have high maximum levels. You have to use [color=deep_sky_blue]the Nodes mechanic[/color] in order to generate that amount of money."
+	},
+
+	{
+		"type": "category",
+		"title": "Nodes",
+		"icon": "res://ui/main_menu/manual/nodes_category.png"
+	},
+
+	{
+		"type": "bbcode",
+		"text": "First, buy a slot (Slot 0 is the cheapest), and then in the configuration menu (accessible via CONFIGURE button), set the Provided coins value to something like 50. ([color=crimson]also check that you have atleast 50 coins on your balance[/color])"
+	},
+
+	{
+		"type": "bbcode",
+		"text": "Then you have to place [color=peach_puff]the input node[/color] in the beginning, [color=peach_puff]output node[/color] in the end and connect their inputs and outputs. But for now it does not generate no money."
+	},
+
+	{
+		"type": "bbcode",
+		"text": "In order to start making money, you have to place [color=peach_puff]the processor node[/color] in the middle (so now input node goes to processor node which goes to the output node)."
+	},
+
+	{
+		"type": "image",
+		"path": "res://ui/main_menu/manual/nodes_tutorial.png",
+		"description": "<- Use this placement to generate money"
+	},
+
+	{
+		"type": "bbcode",
+		"text": "The processor node will start at the first level, generating only 20% profit. But once you start getting more and more money, you can level up the processor node and the profits will only increase!"
+	},
+
+	{
+		"type": "bbcode",
+		"text": "To expand your coin generating facility, you can buy more slots and you can also have multiple processor nodes per slot. ([color=crimson]don't forget to level the slot up once you hit the max node cap![/color])"
+	},
+
+	{
+		"type": "category",
+		"title": "End Game",
+		"icon": "res://upgrade/icons/dyson_sphere.png"
+	},
+
+	{
+		"type": "text",
+		"text": "Welp, looks like you have maxed out on every upgrade and every node slot has atleast 50 processor nodes."
+	},
+
+	{
+		"type": "bbcode",
+		"text": "The ultimate goal of the game is getting [color=yellow]one trillion coins[/color]."
+	},
+
+	{
+		"type": "category",
+		"title": "Modding",
+		"icon": "res://world/bopp/bopp.png"
+	},
+
+	{
+		"type": "text",
+		"text": "For now, the game provides a fairly extensive modding support: you can add new upgrades, use mod scripts for custom behavior, and other things.\nAll of that is parsed from JSON files in user://data directory (%appdata%/BoppClicker/data for Windows)."
+	},
+	
+	{
+		"type": "text",
+		"text": "Thank you for enjoying this game and reading this manual to the end! I dunno what to put here, but I guess Bopp Clicker is cool."
+	}
+]
